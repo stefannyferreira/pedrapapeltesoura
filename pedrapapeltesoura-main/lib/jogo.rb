@@ -1,8 +1,3 @@
-# Desafio: Pedra, papel e tesoura
-# Crie um método que seja capaz de receber duas jogadas, onde a primeira entrada é o movimento do jogador 1 e a segunda entrada é o movimento do jogador 2
-# A saída deve ser uma string com a informação de qual dos jogadores foi o vencedor. Se houver empate, a saída deve ser uma string com a frase "Empate!"
-# Extra: Quando a jogada do jogador 2 não é inserida, o método deve criar uma "máquina" que seja capaz de jogar contra o jogador 1
-
 class Jogo
   POSSIBLE_MOVES = %w[pedra papel tesoura]
  
